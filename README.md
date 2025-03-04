@@ -50,43 +50,43 @@ Power transformers are crucial components in electrical grids, and unexpected fa
 ## Project Structure
 ```
 .
-├── Transformer_Oil_Temperature_Time_Series-2.ipynb  # Main Jupyter notebook
-├── ETTh2.csv                                        # Sample dataset (not included in repo)
-├── requirements.txt                                 # Python dependencies (to be created)
-└── README.md                                        # This README
+├── Transformer_Oil_Temperature_Time_Series.ipynb  # Main Jupyter notebook
+├── ETTh2.csv                                      # Sample dataset (not included in repo)
+├── requirements.txt                               # Python dependencies
+└── README.md                                      # This README
 ```
 
 ## Getting Started
 
 1. **Clone the Repository**:
    ```bash
-git clone https://github.com/your-repo-name.git
-cd your-repo-name
+   git clone https://github.com/agme2019/Electrical-Transformer-Health-Monitoring.git
+   cd Electrical-Transformer-Health-Monitoring
    ```
 
 2. **Install Dependencies**:
    ```bash
-pip install -r requirements.txt
-```
-   If you don’t have a requirements file, manually install each package:
+   pip install -r requirements.txt
+   ```
+   If you don't have a requirements file, manually install each package:
    ```bash
-pip install pytorch-forecasting pytorch-lightning matplotlib pandas numpy scikit-learn
-```
+   pip install pytorch-forecasting pytorch-lightning matplotlib pandas numpy scikit-learn
+   ```
 
 3. **Obtain the Dataset**:
    - Download the `ETTh2.csv` file from the original [ETDataset repository](https://github.com/zhouhaoyi/ETDataset) or any custom dataset with similar structure.
-   - Place the data file in the project’s root folder.
+   - Place the data file in the project's root folder.
 
 4. **Run the Notebook**:
    ```bash
-jupyter notebook Transformer_Oil_Temperature_Time_Series.ipynb
-
+   jupyter notebook Transformer_Oil_Temperature_Time_Series.ipynb
+   ```
    - Follow the sequential steps in the notebook to load data, train the model, and evaluate performance.
-```
+
 ## Usage
 
 ### Training the Model
-- **Hyperparameters**: Modify hidden sizes, learning rates, dropout rates, and other hyperparameters within the notebook’s configuration cells.
+- **Hyperparameters**: Modify hidden sizes, learning rates, dropout rates, and other hyperparameters within the notebook's configuration cells.
 - **GPU Support**: If available, configure the notebook to run on GPU for faster training.
 
 ### Evaluating the Model
@@ -126,4 +126,3 @@ For questions or feedback, please open an issue on GitHub or reach out to the ma
 
 ---
 **Note**: This project is intended for educational and research purposes. Always verify results and consult professional engineering guidelines when deploying models to real-world industrial systems.
-
