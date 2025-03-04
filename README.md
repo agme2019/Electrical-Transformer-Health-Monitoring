@@ -79,10 +79,10 @@ pip install pytorch-forecasting pytorch-lightning matplotlib pandas numpy scikit
 
 4. **Run the Notebook**:
    ```bash
-jupyter notebook Transformer_Oil_Temperature_Time_Series-2.ipynb
-```
-   - Follow the sequential steps in the notebook to load data, train the model, and evaluate performance.
+jupyter notebook Transformer_Oil_Temperature_Time_Series.ipynb
 
+   - Follow the sequential steps in the notebook to load data, train the model, and evaluate performance.
+```
 ## Usage
 
 ### Training the Model
